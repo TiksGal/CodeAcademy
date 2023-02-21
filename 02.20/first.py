@@ -79,7 +79,7 @@
 #     except TypeError:
 #         print("type not integer")
 # second_func(number_one=10, number_two=5)
-# #---------------------------------
+#---------------------------------
 # def third_func(number: int) -> None:
 #     try:
 #         number = 20 / number 
@@ -87,7 +87,7 @@
 #     except ZeroDivisionError:
 #         print("do not divide by zero")
 # third_func(number=0)
-# #-----------------------------------
+#-----------------------------------
 # def fourth_func(name: str = "Marius") ->None:
 #     try:
 #         name[-1] = "s" 
@@ -95,7 +95,7 @@
 #     except Exception as e:
 #         print(f"Exception {e}")
 # fourth_func(name="H")
-# #------------------------------------
+#------------------------------------
 # def fifth_func(name: str, surname: str) -> None:
 #     try: 
 #         full_name = name + surname 

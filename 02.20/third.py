@@ -1,14 +1,18 @@
-from typing import Union, Tuple
+# Create a mini python program which would take two numbers as
+# an input and would return their sum, subtraction, division, multiplication.
+# Handle all possible errors that may occur.
+
+from typing import Union
 
 
-def calculator() -> Union[Tuple[float, float, float, float], None]:
+def calculator() -> Union[list[float, float, float, float], None]:
     try:
-        a: float = float(input("Enter the first number: "))
-        b: float = float(input("Enter the second number: "))
-        add: float = a + b
-        sub: float = a - b
-        mul: float = a * b
-        div: float = a / b
+        a = float(input("Enter the first number: "))
+        b = float(input("Enter the second number: "))
+        add = a + b
+        sub = a - b
+        mul = a * b
+        div = a / b
     except ValueError:
         print("Error: please enter a valid number.")
         return None
@@ -19,10 +23,6 @@ def calculator() -> Union[Tuple[float, float, float, float], None]:
         print(f"Error: {e}")
         return None
     else:
-        print(f"Sum: {add}")
-        print(f"Subtraction: {sub}")
-        print(f"Multiplication: {mul}")
-        print(f"Division: {div}")
-        return add, sub, mul, div
+        return [add, sub, mul, div]
 
 print(calculator())
