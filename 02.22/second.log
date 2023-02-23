@@ -1,0 +1,21 @@
+22/02/2023 20:26:44 - root - INFO - Input list: [2, 3, 4, 5, 6, 7, 10]
+22/02/2023 20:26:44 - root - INFO - Value to move: 2
+22/02/2023 20:26:44 - root - INFO - Output list: [10, 3, 4, 5, 6, 7, 2]
+22/02/2023 20:26:58 - root - INFO - Error: invalid literal for int() with base 10: 'l'
+22/02/2023 20:31:03 - root - INFO - Input list: [1213]
+22/02/2023 20:31:03 - root - INFO - Value to move: 1
+22/02/2023 20:31:03 - root - INFO - Output list: [1213]
+22/02/2023 20:31:17 - root - INFO - Input list: [12]
+22/02/2023 20:31:17 - root - INFO - Value to move: 1
+22/02/2023 20:31:17 - root - INFO - Output list: [12]
+22/02/2023 20:31:29 - root - INFO - Input list: [12]
+22/02/2023 20:31:29 - root - INFO - Value to move: 12
+22/02/2023 20:31:29 - root - INFO - Output list: [12]
+22/02/2023 20:32:19 - root - INFO - Error: invalid literal for int() with base 10: 'bandymas'
+22/02/2023 20:32:30 - root - INFO - Error: invalid literal for int() with base 10: '12.1'
+22/02/2023 20:33:48 - root - INFO - Input list: [1, 2, 3, 14, 100]
+22/02/2023 20:33:48 - root - INFO - Value to move: 14
+22/02/2023 20:33:48 - root - INFO - Output list: [1, 2, 3, 100, 14]
+22/02/2023 20:39:23 - root - INFO - Input list: ['12', '2', '11', '1', '100', '1']
+22/02/2023 20:39:23 - root - INFO - Value to move: 1
+22/02/2023 20:39:23 - root - INFO - Output list: ['12', '2', '11', '100', '1', '1']
