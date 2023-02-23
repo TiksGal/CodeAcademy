@@ -1,0 +1,4 @@
+22/02/2023 18:48:03 - root - DEBUG - Received numbers: a:6 and b:7
+22/02/2023 18:48:03 - root - CRITICAL - Had to stop device due to stop event
+22/02/2023 18:48:30 - root - DEBUG - Received numbers: a:6 and b:7
+22/02/2023 18:48:30 - root - CRITICAL - Had to stop device due to stop event

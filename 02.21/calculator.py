@@ -13,7 +13,7 @@ print(f"I am in calculator {__name__}")
 if __name__ == "__main__":
     
     a = 500
-    b = 1000
+    b = 12
     
     result = prod(a, b)
     print(result)
