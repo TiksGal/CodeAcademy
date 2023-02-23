@@ -29,4 +29,8 @@ elif operation == '/':
         print(f"{num1} / {num2} = {result}")
 else:
     print("Error: Invalid operation")
+<<<<<<< HEAD
     exit(1)
+=======
+    exit(1)
+>>>>>>> a995e42f38455a7261ae1764f16dfbca2d57e391

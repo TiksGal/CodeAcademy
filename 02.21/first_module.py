@@ -42,4 +42,8 @@ def divide(a: float, b: float) -> float:
     """
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero")
+<<<<<<< HEAD
     return a / b
+=======
+    return a / b
+>>>>>>> a995e42f38455a7261ae1764f16dfbca2d57e391
