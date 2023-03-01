@@ -1,3 +1,7 @@
 2023-03-01 14:48:32,255:INFO:Australia is_big: True
 2023-03-01 14:48:32,255:INFO:Andorra is_big: False
 2023-03-01 14:48:32,255:INFO:Andorra has a larger population density than Australia
+2023-03-01 15:00:54,453:INFO:Country objects created successfully
+2023-03-01 15:00:54,454:INFO:Australia is_big: True
+2023-03-01 15:00:54,454:INFO:Andorra is_big: False
+2023-03-01 15:00:54,454:INFO:Andorra has a larger population density than Australia
