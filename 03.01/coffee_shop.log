@@ -1,0 +1,40 @@
+WARNING:root:Item not found: hot cocoa
+WARNING:root:Item not found: iced tea
+INFO:root:Order added: cinnamon roll
+INFO:root:Order added: iced coffee
+2023-03-02 15:39:55,475:WARNING:Item not found: hot cocoa
+2023-03-02 15:39:55,475:WARNING:Item not found: iced tea
+2023-03-02 15:39:55,476:INFO:Order added: cinnamon roll
+2023-03-02 15:39:55,476:INFO:Order added: iced coffee
+2023-03-02 15:43:37,179:WARNING:Item not found: hot cocoa
+2023-03-02 15:43:37,180:WARNING:Item not found: iced tea
+2023-03-02 15:43:37,181:INFO:Order added: cinnamon roll
+2023-03-02 15:43:37,181:INFO:Order added: iced coffee
+2023-03-02 15:43:37,184:INFO:Cheapest item: orange juice
+2023-03-02 15:44:24,999:WARNING:Item not found: hot cocoa
+2023-03-02 15:44:25,000:WARNING:Item not found: iced tea
+2023-03-02 15:44:25,000:INFO:Order added: cinnamon roll
+2023-03-02 15:44:25,001:INFO:Order added: iced coffee
+2023-03-02 15:44:25,001:INFO:Cheapest item: orange juice
+2023-03-02 15:44:25,002:INFO:Fulfilled order: cinnamon roll
+2023-03-02 17:41:54,732:WARNING:Item not found: hot cocoa
+2023-03-02 17:41:54,733:WARNING:Item not found: iced tea
+2023-03-02 17:41:54,733:INFO:Order added: cinnamon roll
+2023-03-02 17:41:54,734:INFO:Order added: iced coffee
+2023-03-02 17:41:54,735:INFO:Cheapest item: orange juice
+2023-03-02 17:41:54,735:INFO:Fulfilled order: cinnamon roll
+2023-03-02 17:42:02,305:WARNING:Item not found: hot cocoa
+2023-03-02 17:42:02,305:WARNING:Item not found: iced tea
+2023-03-02 17:42:02,306:INFO:Order added: cinnamon roll
+2023-03-02 17:42:02,307:INFO:Order added: iced coffee
+2023-03-02 17:42:02,309:INFO:Cheapest item: orange juice
+2023-03-02 17:42:02,310:INFO:Fulfilled order: cinnamon roll
+2023-03-02 17:42:02,312:INFO:Fulfilled order: iced coffee
+2023-03-02 17:42:33,998:WARNING:Item not found: hot cocoa
+2023-03-02 17:42:33,998:WARNING:Item not found: iced tea
+2023-03-02 17:42:33,999:INFO:Order added: cinnamon roll
+2023-03-02 17:42:34,001:INFO:Order added: iced coffee
+2023-03-02 17:42:34,003:INFO:Cheapest item: orange juice
+2023-03-02 17:42:34,003:INFO:Fulfilled order: cinnamon roll
+2023-03-02 17:42:34,004:INFO:Fulfilled order: iced coffee
+2023-03-02 17:42:34,005:WARNING:No orders to fulfill
