@@ -41,7 +41,6 @@ class Square(Rectangle):
         self.side_length = side_length
         
 
-# Create a Rectangle
 rectangle = Rectangle("My rectangle", width=5, height=10)
 
 # Print the rectangle's name and number of sides

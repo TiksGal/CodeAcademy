@@ -13,5 +13,5 @@ class C(B):
         print("Hello from class C")
         
 
-obj = C()
-obj.say_hello()
+objc = C()
+objc.say_hello()
