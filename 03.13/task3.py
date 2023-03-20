@@ -25,29 +25,33 @@
 # game.get_sqr(1, 8) ➞ [0, 3, 0, 7, 0, 0, 0, 0, 0]
 # game.get_sqr(8, 3) ➞ [0, 0, 5, 4, 3, 0, 7, 0, 1]
 
-# class Sudoku:
-#     def __init__(self, board_string):
-#         self.board = [[int(board_string[row * 9 + col]) for col in range(9)] for row in range(9)]
-        
-#     def get_row(self, row_index):
-#         return self.board[row_index]
-        
-#     def get_col(self, col_index):
-#         return [row[col_index] for row in self.board]
-    
-#     def get_sqr(self, row_index, col_index=None):
-#         if col_index is None:
-#             row_index, col_index = row_index // 3 * 3, row_index % 3 * 3
-#         else:
-#             row_index, col_index = row_index // 3 * 3, col_index // 3 * 3
-            
-#         return [self.board[row][col] for row in range(row_index, row_index + 3) for col in range(col_index, col_index + 3)]
 
-# game = Sudoku("417950030000000700060007000050009106800600000000003400900005000000430000200701580")
-# print("My board", game.board)
-# print(game.get_row(0))
-# print(game.get_col(8))
-# print(game.get_sqr(1))
-# print(game.get_sqr(1, 8))
-# print(game.get_sqr(8, 3))
+class Sudoku:
+    def __init__(self, board_string):
+        self.board = [[int(board_string[i*9+j]) for j in range(9)] for i in range(9)]
 
+    def get_row(self, n):
+        return self.board[n]
+
+    def get_col(self, n):
+        return [self.board[i][n] for i in range(9)]
+
+    def get_sqr(self, n, m=None):
+        if m is None:
+            row = (n // 3) * 3
+            col = (n % 3) * 3
+        else:
+            row = (n // 3) * 3 + m // 3
+            col = (n % 3) * 3 + m % 3
+        return [self.board[i][j] for i in range(row, row + 3) for j in range(col, col + 3)]
+
+
+game = Sudoku(
+    "417950030000000700060007000050009106800600000000003400900005000000430000200701580"
+)
+print("My board", game.board)
+print(game.get_row(0))
+print(game.get_col(8))
+print(game.get_sqr(1))
+print(game.get_sqr(1, 8))
+print(game.get_sqr(8, 3))
