@@ -1,0 +1,6 @@
+__pycache__
+.venv
+darbo_kalendorius.db
+employees.db
+darbuotojai.db
+projektai.db
