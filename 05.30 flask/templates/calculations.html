@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ne mano puslapis</title>
+</head>
+<body>
+<h1>Skaičiavimai: </h1>
+{%for x in range(100)%}
+{%if x % 3 == 0 %}
+<p>{{x}}</p>
+{% endif %}
+{%endfor%}
+</body>
+</html>

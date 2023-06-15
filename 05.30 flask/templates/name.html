@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarašas</title>
+</head>
+<body>
+<h1>Žmonių sarašas: </h1>
+{%for name in my_list%}
+{%if name == 'Petras' %}
+<p>{{name}}</p>
+{% endif %}
+{% endfor %}
+</body>
+</html>
